@@ -14,12 +14,19 @@ const popContent = document.querySelector("#popCont");
 //cities
 const placeToSee1 = document.querySelector("#placeToSee1");
 
+//first second pages
+const firstPage = document.querySelector(".firstPage");
+const secondPage = document.querySelector(".secondPage");
+secondPage.style.display = "none";
+
 
 function nextPage(){
   //window.location.href="/andra.html";
    console.log(userName.value);
   if(userName.value === "Lucas" && passWord.value == "PT2022"){
-    window.location.href="/andra.html";
+    firstPage.style.display = "none";
+    secondPage.style.display = "block";
+    //window.location.href="/andra.html";
     console.log("Login succesful");
   }else{
     alert("Username or password is incorect!");
