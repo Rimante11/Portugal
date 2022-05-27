@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="bg-modal" id="popup">
+    <div class="modal-content" id="popCont">
+    </div>
+  </div>
+
+    <nav id="main-menu" class="menuNav">
+      <a href="javascript:void(0)" onclick="tuggleMenu()">
+        <img src="./pictures/hamburgare-menu.png" alt="menuIcon" class="menuIcon">
+      </a>
+
+      <ul class="citiesList" id="cities">
+          
+          <li><a class="cities placeToSee1"  href="#" onclick="popupLisbon()">Lisboa</a></li>
+          <li><a class="cities placeToSee2" href="#"  onclick="popupCascais()">Cascais</a></li>
+          <li><a class="cities placeToSee3" href="#" onclick="popupEvora()">Evora</a></li>
+          <li><a class="cities placeToSee4" href="#" onclick="popupMilfontes()">Milfontes</a></li>
+          <li><a class="cities placeToSee5" href="#" onclick="popupAmando()">Praia do Amando</a></li>
+          <li><a class="cities placeToSee6" href="#" onclick="popupAtalaia()" >Ponto da Atalaia</a></li>
+          <li><a class="cities placeToSee7" href="#" onclick="popupLagos()">Lagos / Faro</a></li>
+          <li><a class="cities placeToSee8" href="#" onclick="popupBraga()">Braga</a></li>
+          <li><a class="cities placeToSee9" href="#" onclick="popupPorto()">Porto</a></li>
+          <li><a class="cities placeToSee10" href="#" onclick="popupHome()">Home</a></li>
+      </ul>
+    </nav>
+
+    
+
+    <img src="./pictures/PortugalKarta.svg" alt="" class="portugalMap">
+
+  <footer>
+    <img src="./pictures/icon-c.png" alt="icon-C" class="icon-C">
+    <p>Portugal 2022</p>
+  </footer> 
+
+  <script src="main.js"></script>
+</body>
+</html>

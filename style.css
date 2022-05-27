@@ -1,0 +1,351 @@
+body{
+  background-color: #5A829B;
+  margin: 0px;
+  /*height: 100px; */
+}
+
+.loginTitle{
+  padding-top: 50px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+}
+
+.loginContainer{
+  background-color: #CCAF85;
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 380px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.userIcon{
+  width: auto;
+  height: 80px;
+}
+
+.loginButton {
+  background-color: #4DAA73;
+  border: 2px solid gainsboro;
+  border-radius: 8px;
+  width: 140px;
+  height: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginInput {
+  border-radius: 5px;
+  border: 2px solid gainsboro;
+  width: 200px;
+  height: 25px;
+}
+
+.loginLabel {
+  color: white;
+  padding-right: 130px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-bottom: 5px;
+}
+
+/*footer styling*/
+.icon-C{
+  width: auto;
+  height: 20px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+footer{
+  background-color: #7a9ead;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  font-size: 14px;
+}
+
+/*---mobile top nav, med hambuger meny*/
+.menuIcon{
+  width: auto;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.menuNav{
+  background-color: #7a9ead;
+  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.citiesList{
+  background-color: rgb(166, 166, 141);
+}
+li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0px 10px 0px;
+  background-color: rgb(166, 166, 141);
+  transition: background-color .5s;
+  padding-left: 10px;
+  
+}
+
+li:hover{
+  background-color:#4DAA73; 
+}
+
+.cities{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/*POPUPS*/
+/**POPUPS------------------*/
+.bg-modal {
+  width: 100%;
+  height: 113%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal-content {
+  background-color: #CCAF85;
+  border-radius: 4px;
+  height: auto;
+  width: 340px;
+  margin: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 0px;
+  padding-right: 20px;
+  
+}
+
+.closeX {
+  font-size: 20px;
+  font-weight: 600;
+  transform: rotate(45deg);
+  position: relative;
+  margin-top: 120px;
+  left: 260px;
+  cursor: pointer;
+  padding-top: 15px;
+  margin-bottom: -90px;
+}
+
+.sardine, .pluduriuoja, .fly, .loveme {
+  width: 85px;
+  height: 80px;
+  border-radius: 62px;
+  display: flex;
+  align-self: center;
+  border: 2px solid #4daa73;
+}
+
+h2 {
+  font-family: 'Smokum',cursive;
+  letter-spacing: 3px;
+  color: #5A829B;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+#citiesToSee{
+  background-color: #CCAF85;
+}
+.toseeList{
+  background-color: #7a9ead;
+  border-radius: 4px;
+  color: azure;
+  margin-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  
+} 
+
+
+
+
+/*efter 600px i större sidan*/
+@media(min-width: 600px){
+  .loginTitle{
+    width: 500px;
+    margin: auto;
+    display: flex;
+  }  
+
+  #close{
+    position: relative;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    /* transform: rotate(45deg); */
+    cursor: pointer;
+  }
+
+  .loginContainer{
+    background-color: #CCAF85;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .userIcon{
+    width: auto;
+    height: 120px;
+  }
+
+  hr{
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .loginButton {
+    background-color: #4DAA73;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+
+  .loginInput {
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    width: 200px;
+    height: 25px;
+  }
+
+  .loginLabel {
+    color: white;
+    padding-right: 130px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+  }
+
+  ::placeholder{
+    padding-left: 5px;
+    color: rgb(175, 175, 179);
+  }
+
+  .menuIcon{
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .portugalMap{
+    width: auto;
+    height: 800px;
+    margin: auto;
+    display: flex;
+  }
+
+  .icon-C{
+    width: auto;
+    height: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+  }
+  
+  footer{
+    background-color: #7a9ead;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    margin-top: 80px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  /**POPUPS------------------*/
+  .bg-modal {
+    width: 100%;
+    height: 140%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .modal-content {
+    width: 500px;
+    height: auto; 
+    background-color: #CCAF85;
+    border-radius:  4px;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 500px;
+    padding: 20px;
+    
+    /*position: relative;*/
+  }
+
+  .closeX {
+    font-size: 28px;
+    font-weight: 600;
+    transform: rotate(45deg);
+    position: relative;
+    left: 230px;
+    cursor: pointer;
+    
+  }
+
+  h2 {
+    font-family: 'Smokum',cursive;
+    letter-spacing: 3px;
+    color: #5A829B;
+    font-size: 32px;
+  }
+
+  #citiesToSee{
+    background-color: #CCAF85;
+  }
+  .toseeList{
+    background-color: #7a9ead;
+    border-radius: 4px;
+    color: azure;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
