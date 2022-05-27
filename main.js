@@ -21,6 +21,7 @@ secondPage.style.display = "none";
 
 
 function nextPage(){
+  
   //window.location.href="/andra.html";
    console.log(userName.value);
   if(userName.value === "Lucas" && passWord.value == "PT2022"){
