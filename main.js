@@ -62,7 +62,7 @@ function popupLisbon() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/sardine.png" alt="sun" class="sardine">
+      <img src="./pictures/sardine.png" alt="sun" class="sardine">
       <h2>Lisbon</h2>
 
       <ul id="citiesToSee">
@@ -88,7 +88,7 @@ function popupCascais() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/pluduriuoja.jpg" alt="sun" class="pluduriuoja">
+      <img src="./pictures/pluduriuoja.jpg" alt="sun" class="pluduriuoja">
       <h2>Cascais</h2>
 
       <ul id="citiesToSee">
@@ -111,7 +111,7 @@ function popupEvora() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/fly.png" alt="sun" class="fly">
+      <img src="./pictures/fly.png" alt="sun" class="fly">
       <h2>Evora</h2>
 
       <ul id="citiesToSee">
@@ -135,7 +135,7 @@ function popupMilfontes() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/birds.png" alt="sun" class="loveme">
+      <img src="./pictures/birds.png" alt="sun" class="loveme">
       <h2>Milfontes</h2>
 
       <ul id="citiesToSee">
@@ -159,7 +159,7 @@ function popupAmando() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/wale.jpg" alt="sun" class="loveme">
+      <img src="./pictures/wale.jpg" alt="sun" class="loveme">
       <h2>Praia do Amando</h2>
 
       <ul id="citiesToSee">
@@ -177,7 +177,7 @@ function popupAtalaia() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/meduza.png" alt="sun" class="loveme">
+      <img src="./pictures/meduza.png" alt="sun" class="loveme">
       <h2>Ponto da Atalaia</h2>
 
       <ul id="citiesToSee">
@@ -196,7 +196,7 @@ function popupLagos() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/sangria.png" alt="sun" class="loveme">
+      <img src="./pictures/sangria.png" alt="sun" class="loveme">
       <h2>Lagos / Faro</h2>
 
       <ul id="citiesToSee">
@@ -218,7 +218,7 @@ function popupBraga() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/cock.png" alt="sun" class="loveme">
+      <img src="./pictures/cock.png" alt="sun" class="loveme">
       <h2>Braga</h2>
 
       <ul id="citiesToSee">
@@ -241,7 +241,7 @@ function popupPorto() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/house.png" alt="sun" class="loveme">
+      <img src="./pictures/house.png" alt="sun" class="loveme">
       <h2>Porto</h2>
 
       <ul id="citiesToSee">
@@ -261,7 +261,7 @@ function popupHome() {
 
   popContent.innerHTML = `
       <div class="closeX" id="closePop" onclick="closePopup()">+</div>
-      <img src="/pictures/heart.png" alt="sun" class="loveme">
+      <img src="./pictures/heart.png" alt="sun" class="loveme">
       <h2>Home</h2>
 
       <ul id="citiesToSee">
