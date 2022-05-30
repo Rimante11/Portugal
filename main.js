@@ -27,6 +27,7 @@ function nextPage(){
   if(userName.value === "Lucas" && passWord.value == "PT2022"){
     firstPage.style.display = "none";
     secondPage.style.display = "block";
+    document.querySelector('footer').style = 'margin-top: 0px';
     //window.location.href="/andra.html";
     console.log("Login succesful");
   }else{
@@ -61,7 +62,7 @@ function popupLisbon() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/sardine.png" alt="sun" class="sardine">
       <h2>Lisbon</h2>
 
@@ -87,7 +88,7 @@ function popupCascais() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/pluduriuoja.jpg" alt="sun" class="pluduriuoja">
       <h2>Cascais</h2>
 
@@ -110,7 +111,7 @@ function popupEvora() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/fly.png" alt="sun" class="fly">
       <h2>Evora</h2>
 
@@ -134,7 +135,7 @@ function popupMilfontes() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/birds.png" alt="sun" class="loveme">
       <h2>Milfontes</h2>
 
@@ -158,7 +159,7 @@ function popupAmando() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/wale.jpg" alt="sun" class="loveme">
       <h2>Praia do Amando</h2>
 
@@ -176,7 +177,7 @@ function popupAtalaia() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/meduza.png" alt="sun" class="loveme">
       <h2>Ponto da Atalaia</h2>
 
@@ -195,7 +196,7 @@ function popupLagos() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/sangria.png" alt="sun" class="loveme">
       <h2>Lagos / Faro</h2>
 
@@ -217,7 +218,7 @@ function popupBraga() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/cock.png" alt="sun" class="loveme">
       <h2>Braga</h2>
 
@@ -240,7 +241,7 @@ function popupPorto() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/house.png" alt="sun" class="loveme">
       <h2>Porto</h2>
 
@@ -260,7 +261,7 @@ function popupHome() {
   popUp.style.display = "block";
 
   popContent.innerHTML = `
-      <div class="closeX" id="closePop" onclick="closePopup()">+</div>
+      <div class="closeX" id="closePop" onclick="closePopup()">x</div>
       <img src="./pictures/heart.png" alt="sun" class="loveme">
       <h2>Home</h2>
 
