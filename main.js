@@ -60,7 +60,6 @@ function closePopup() {
   popUp.style.display = "none";
 }
 
-
 //Lisnon popup
 function popupLisbon() {
   citiesList.style.display = "none";
