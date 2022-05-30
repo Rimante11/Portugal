@@ -28,6 +28,11 @@ function nextPage(){
     firstPage.style.display = "none";
     secondPage.style.display = "block";
     document.querySelector('footer').style = 'margin-top: 0px';
+
+    function zoom() {
+      document.body.style.zoom = '100%';
+    }
+    zoom();
     //window.location.href="/andra.html";
     console.log("Login succesful");
   }else{
