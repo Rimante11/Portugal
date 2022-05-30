@@ -17,7 +17,7 @@ const placeToSee1 = document.querySelector("#placeToSee1");
 //first second pages
 const firstPage = document.querySelector(".firstPage");
 const secondPage = document.querySelector(".secondPage");
-secondPage.style.display = "none";
+secondPage.style.display = "none";  
 
 
 function nextPage(){
